@@ -29,27 +29,27 @@
                 </p>
             </div>
             <div ><u>ЗАПИТВАНЕ</u></div>
-            <form >
+            <form method="post" action="https://api.sheetmonkey.io/form/59sAA8FNnUBEboCarJavuD" >
                 <div>
                     <div>
                         <div >
                             <label >Заглавие:</label>
-                            <input placeholder="Заглавие" />
+                            <input placeholder="Заглавие" name="title" />
                      
                         </div>
                         <div >
                             <label>Имейл:</label>
-                            <input type="email" placeholder="Имейл" />
+                            <input type="email" placeholder="Имейл" name="email" />
                         </div>
                     </div>
                 </div>
                 <div>
                     <label>Съдържание:</label>
                     <br/>
-                    <textarea placeholder="Въведи текст" rows="6" cols="50"></textarea>
+                    <textarea placeholder="Въведи текст" rows="6" cols="50" title="description"></textarea>
                 </div>
                 <div>
-                    <input type="submit">
+                    <input type="submit" value="Send">
                 </div>
             </form>
         </div>
